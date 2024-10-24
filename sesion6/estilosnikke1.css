@@ -1,0 +1,106 @@
+﻿body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Imagen de fondo */
+.hero {
+    width: 100%;
+    height: 50vh;
+    position: relative; 
+}
+
+.fondo-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente sin deformarse */
+}
+
+/* Navegación dentro de la imagen */
+.nav-overlay {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+}
+
+.nav-links {
+    list-style: none; /* Elimina los puntos de lista */
+    display: flex; /* Alinea los elementos en línea horizontal */
+    gap: 20px; 
+}
+
+.nav-links a {
+    font-size: 24px; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el ratón */
+    color: #1e90ff; /* Cambia el color del texto a azul al pasar el ratón */
+}
+
+/* Contenido principal */
+.contenido {
+    padding: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto; /* Asegura que el contenido esté centrado y alineado en el medio de la página */
+}
+
+h1 {
+    font-size: 64px; 
+    font-weight: 100; 
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+/* Hover para enlaces del contenido */
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a[href="#"]:hover {
+    text-decoration: line-through; 
+    color: #999; /* Color gris para indicar que no lleva a ningún lado */
+}
+
+a:hover {
+    color: #1e90ff; /* Cambia a azul si lleva a algún sitio */
+    text-decoration: underline; /* Subraya si lleva a algún sitio */
+}
+
+/* Footer */
+footer {
+    background-color: #000; 
+    color: #fff; 
+    width: 100%; /* El footer abarca todo el ancho de la pantalla */
+    padding: 20px 0;
+}
+
+footer .footer-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 50px; /* Añade espacio a los lados para alinearlo con el contenido principal */
+    text-align: left; 
+}
+
+.enlaces-footer {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    margin: 0;
+}
+
+.enlaces-footer li {
+    margin-bottom: 10px; 
+    font-size: 14px; 
+}
