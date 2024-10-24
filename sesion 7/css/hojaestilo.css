@@ -1,0 +1,158 @@
+﻿
+/* Estilo del cuerpo */
+body {
+    background-color: #ffffff;  
+    color: #333;                
+    font-family: 'Georgia', serif; 
+    line-height: 1.8;           
+    padding: 20px;
+}
+
+/* Cuadro negro */
+#cuadro-negro {
+   width: 100%;            
+    background-color: #003366; 
+    padding: 15px 0;        
+    text-align: center;     
+    margin: 0;              
+    border: none;           
+}
+.thinkbig {
+    font-family: Arial, sans-serif; 
+    font-style: italic;             
+    font-size: 24px;                
+    color: white;                   
+    margin: 0;                      
+}
+.empresa {
+    color: #00FF00; 
+}
+.resaltado {
+    font-weight: bold;
+    color: black; 
+    text-decoration: underline; 
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image {
+    width: 100%; 
+    height: auto; 
+}
+
+h1 {
+    font-size: 70px;  
+    font-weight: normal;
+    margin-top: 15px;
+    line-height: 1.3;
+}
+h2 {
+    font-size: 24px;          
+    font-weight: bold;        
+    margin: 20px 0;          
+    text-align: left;       /* Centrar el texto */
+    font-family: 'Arial', sans-serif;
+}
+
+.subtitle {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+
+
+.autor, .fecha {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Estilo del contenido */
+.content {
+    max-width: 600px; 
+    margin: 20px auto; 
+    text-align: justify; 
+}
+
+.content p {
+    margin-bottom: 15px;
+    font-size: 18px; 
+    color: #444;
+}
+
+/* Estilo Dropcap */
+.pinicial {
+    font-size: 100px; 
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    line-height: 0.9;
+    color: black; /* Color negro */
+    font-family: 'Arial', sans-serif; 
+}
+.imagen-weareable {
+    width: 200%;              
+    height: auto;            
+    display: block;          
+    margin-left: -20px;      
+    margin-right: -20px;     
+    max-width: calc(100% + 40px); 
+}
+/* Estilo del pie de página */
+#footer {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    background-color: #fff;
+    
+}
+
+.trust-project {
+    display: flex;
+    justify-content: center;
+   gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.trust-project p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.trust-project img {
+    height: 30px;
+}
+
+.trust-project a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+}
+.tags {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
+}
+
+.tagstitulo {
+    text-align: justify;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+
+.tags p {
+    line-height: 1.6;
+}
