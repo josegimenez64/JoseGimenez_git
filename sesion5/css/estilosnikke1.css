@@ -1,0 +1,74 @@
+﻿body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+     background-color: #fff;
+}
+
+/* Imagen de fondo */
+.hero {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.fondo-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Contenido principal */
+
+.contenido {
+    padding: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.texto-peque {
+    font-size: 14px;
+    color: grey;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+
+p {
+    font-size: 20px;
+      line-height: 32px;
+    margin-top: 20px;
+    
+}
+
+/* Footer con lista de enlaces */
+
+footer {
+    background-color: #000;   /* Fondo negro para todo el footer */
+    color: #fff;
+    width: 100%;              /* El fondo negro cubre todo el ancho de la pantalla */
+    padding: 20px 0;          /* Relleno vertical */
+}
+
+footer .footer-container {
+    max-width: 800px;         /* El contenido dentro del footer se limita a 800px de ancho */
+    margin: 0 auto;           /* Centra el contenido dentro del footer */
+    padding: 0 50px;          /* Relleno para alinear el texto con el contenido principal */
+    text-align: left;
+}
+
+.enlaces-footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.enlaces-footer li {
+   
+    margin-bottom: 10px;
+    font-size: 14px;
+}
